@@ -9,6 +9,7 @@ upload wip website
     - home - check
         - main header - check
         - why us - check
+        - pricing
         - team - check
         - testimonials - check
         - support - check
