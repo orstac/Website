@@ -20,12 +20,12 @@ upload wip website
         - footer - check
     - development
         - Website Development
-            - JavaScript - started work
+            - JavaScript - started work - check
                 - header - check
-                - img - desc
-                    - title
-                    - par
-                    - standout features
+                - img - desc - check
+                    - title - check
+                    - par - check
+                    - standout features - check
                 - footer - check
             - React - started work - do later
                 - header - check
@@ -34,12 +34,12 @@ upload wip website
                     - par
                     - standout features
                 - footer - check
-            - Bootstrap - started work
+            - Bootstrap - started work - check
                 - header - check
-                - img - desc
-                    - title
-                    - par
-                    - standout features
+                - img - desc - check
+                    - title - check
+                    - par - check
+                    - standout features - check
                 - footer - check
         - Commissions
             - Websites - started work
@@ -60,3 +60,5 @@ upload wip website
         - discord - check
         - contact form
         - footer - check
+    ---
+    - finish all desc

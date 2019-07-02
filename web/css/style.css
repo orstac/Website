@@ -236,6 +236,36 @@ html {
     color: #212121;
 }
 
+.body {
+    margin: 30px 0 30px 0;
+    padding: 20px 0 20px 0;
+}
+
+.project img {
+    width: 25vw;
+    height: 25vh;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+.project .card {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    min-width: 200px;
+    max-width: 300px;
+}
+
+.project .card h6 {
+    margin-top: 8px;
+    margin-left: 8px;
+}
+
+.project .card .fab {
+    color: #212121;
+    text-decoration: none;
+}
+
 /* use to see borders */
 div {
     /* border: 0.5px solid #757575; */
