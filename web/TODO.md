@@ -41,8 +41,22 @@ upload wip website
                     - par - check
                     - standout features - check
                 - footer - check
+        - Server Setup - do later
+            - Mc Server Setup
+                - header - check
+                - img - desc
+                    - title
+                    - par
+                    - standout features
+                - footer - check
         - Commissions
             - Websites - started work
+                - header - check
+                - standout features
+                - portfolio
+                - link to contact
+                - footer - check
+            - Server Setup - do later
                 - header - check
                 - standout features
                 - portfolio
