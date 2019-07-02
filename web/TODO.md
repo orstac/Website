@@ -42,7 +42,7 @@ upload wip website
                     - standout features - check
                 - footer - check
         - Server Setup - do later
-            - Mc Server Setup
+            - Mc Server Setup - check
                 - header - check
                 - img - desc
                     - title
@@ -56,7 +56,7 @@ upload wip website
                 - portfolio
                 - link to contact
                 - footer - check
-            - Server Setup - do later
+            - Server Setup - do later - check
                 - header - check
                 - standout features
                 - portfolio
