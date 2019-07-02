@@ -1,0 +1,232 @@
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #0984e35a;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #0984e3;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.btn {
+    /* box-shadow: 3px 3px 10px -4px #0984e3; */
+}
+
+.orstac-logo {
+    transform: rotate(180deg);
+    margin-right: 8px;
+}
+
+.navbar {
+    border-bottom: 0.5px solid #dfdfdf;
+}
+
+.navbar .btn {
+    margin: 0 4px;
+}
+
+.title {
+    background: url("/img/geometry.png");
+    padding: 10vh 0 10vh 0;
+    -webkit-box-shadow: 0px 3px 15px 1px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 3px 15px 1px rgba(0, 0, 0, 0.1);
+}
+
+.title.error {
+    padding: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    height: 100vh;
+}
+
+.title.error .text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title hr {
+    height: 3px;
+    border-radius: 10px;
+    width: 125px;
+    margin: 12px 0;
+}
+
+.title h1 {
+    font-size: 72px;
+}
+
+.title img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.why {
+    margin: 30px 0 30px 0;
+    padding: 20px 0 20px 0;
+}
+
+.why .card-deck {
+    margin-top: -75px;
+    border: 2px solid #dfdfdf;
+    border-radius: 12px;
+    background: #fff;
+}
+
+.why .card-deck .card {
+    transition: 0.5s;
+    transform: scale(calc(1 - 0.025));
+    margin: 0;
+    border-width: 2px;
+    border-radius: 0;
+    border: none;
+    background: none;
+}
+
+.why .card-deck .card:hover,
+.why .card-deck .card:focus,
+.why .card-deck .card:active {
+    transform: scale(1);
+}
+
+.why .icon {
+    border: 1px solid #212121;
+    padding: 8px;
+    border-radius: 100px;
+    margin: 0 0 8px 0;
+}
+
+.team {
+    background: #f8f8f8;
+    margin: 30px 0 30px 0;
+    padding: 20px 0 20px 0;
+    -webkit-box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.1);
+}
+
+.team .card {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    min-width: 300px;
+    max-width: 400px;
+    text-align: center;
+    border: none;
+}
+
+.team .card .xestra {
+    -webkit-box-shadow: 0px 0px 15px 5px rgba(9, 132, 227, 0.1);
+    box-shadow: 0px 0px 15px 5px rgba(9, 132, 227, 0.1);
+}
+
+.team .card .card-body {
+    margin-top: -28px;
+}
+
+.team .jobTitle {
+    float: left;
+    text-align: left;
+    margin: 0;
+    padding: 4px 8px;
+    max-width: 120px;
+    background: #0984e3;
+    color: #fff;
+    border-bottom-right-radius: 1000px;
+}
+
+.team .card.lowers .jobTitle {
+    background: #6c757d;
+}
+
+.team .card img {
+    width: 64px;
+    height: 64px;
+    border-radius: 10000px;
+    margin: 0 0 8px 0;
+}
+
+.testimonials {
+    margin: 30px 0 30px 0;
+    padding: 20px 0 20px 0;
+}
+
+.testimonials img {
+    width: 64px;
+    height: 64px;
+    border-radius: 10000px;
+    margin: 0 0 8px 0;
+}
+
+.support {
+    -webkit-box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.1);
+    margin: 30px 0 30px 0;
+    padding: 20px 0 20px 0;
+    text-align: center;
+    background: url("/img/geometry.png");
+}
+
+.support .discord .fa-discord {
+    margin: 0 8px 0 0;
+}
+
+.support .card-deck {
+    background: #fff;
+    /* border: 1px solid #212121; */
+    border-radius: 4px;
+    -webkit-box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.1);
+}
+
+.support .card-deck .card {
+    background: none;
+    border: none;
+}
+
+.support .card-deck img {
+    width: 175px;
+    height: 175px;
+}
+
+.footer {
+    margin: 30px 0 0 0;
+    padding: 20px 0 20px 0;
+}
+
+.footer .card {
+    min-width: 250px;
+    border: none;
+}
+
+.footer .card ul {
+    list-style: none;
+}
+
+.footer .card li {
+    margin: 0 0 0 -40px;
+}
+
+.footer .card a {
+    color: #212121;
+}
+
+/* use to see borders */
+div {
+    /* border: 0.5px solid #757575; */
+}

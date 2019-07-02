@@ -1,0 +1,76 @@
+#### TO DO
+
+upload wip website
+
+- main website
+    - bootstrap - 1-work
+    - colors
+    ---
+    - home - check
+        - main header - check
+        - why us - check
+        - team - check
+        - testimonials - check
+        - support - check
+        - footer - check
+    - about - started work
+        - header - check
+        - about us part - check
+        - team part - check
+        - footer - check
+    - development
+        - Website Development
+            - JavaScript - started work
+                - header - check
+                - img - desc
+                    - title
+                    - par
+                    - standout features
+                - footer - check
+            - React - started work - do later
+                - header - check
+                - img - desc
+                    - title
+                    - par
+                    - standout features
+                - footer - check
+            - Bootstrap - started work
+                - header - check
+                - img - desc
+                    - title
+                    - par
+                    - standout features
+                - footer - check
+        - Server Management
+            - Mc Server Management
+                - header - check
+                - img - desc
+                    - title
+                    - par
+                    - standout features
+                - footer - check
+        - Commissions
+            - Websites - started work
+                - header - check
+                - standout features
+                - portfolio
+                - link to contact
+                - footer - check
+            - Server Management
+                - header - check
+                - standout features
+                - portfolio
+                - link to contact
+                - footer - check
+    - Contact - started work
+        - header - check
+        - social media 
+        - discord
+        - contact form
+        - link to support
+        - footer - check
+    - Support - started work
+        - header - check
+        - discord
+        - contact form
+        - footer - check
