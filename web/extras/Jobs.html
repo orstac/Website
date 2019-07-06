@@ -67,26 +67,26 @@
                 method="POST">
                 <div class="form-group">
                     <label for="name">Name</label>
-                    <input type="text" class="form-control" id="name" placeholder="Name">
+                    <input type="text" class="form-control" id="name" placeholder="Name" name="name">
                 </div>
                 <div class="form-group">
                     <label for="age">Age</label>
-                    <input type="number" class="form-control" id="age" placeholder="Age">
+                    <input type="number" class="form-control" id="age" placeholder="Age" name="age">
                 </div>
                 <div class="form-group">
                     <label for="email">Email address</label>
-                    <input type="email" class="form-control" id="email" placeholder="Email">
+                    <input type="email" class="form-control" id="email" placeholder="Email" name="email">
                 </div>
                 <div class="form-group">
                     <label for="timezone">Timezone</label>
-                    <input type="text" class="form-control" id="timezone" placeholder="timezone">
+                    <input type="text" class="form-control" id="timezone" placeholder="timezone" name="timezone">
                 </div>
                 <div class="form-group">
                     <label for="codinglang">Job Title</label>
-                    <small style="line-height: 0; display: block;">press <code>ctrl</code> or <code>shift</code> to
+                    <small style="line-height: 0; display: block;">press <code>ctrl</code> to
                         select
                         multiple</small><br>
-                    <select multiple class="form-control" id="codinglang">
+                    <select multiple class="form-control" id="codinglang" name="codelang">
                         <option>Java</option>
                         <option>JavaScript</option>
                         <option>C++</option>
@@ -103,11 +103,12 @@
                 </div>
                 <div class="form-group">
                     <label for="yearsofexperience">Years Of Experience</label>
-                    <input type="number" class="form-control" id="yearsofexperience" placeholder="Years Of Experience">
+                    <input type="number" class="form-control" id="yearsofexperience" placeholder="Years Of Experience"
+                        name="yearsofexperience">
                 </div>
                 <div class="form-group">
                     <label for="Education">Education</label>
-                    <input type="text" class="form-control" id="Education" placeholder="Education">
+                    <input type="text" class="form-control" id="Education" placeholder="Education" name="education">
                 </div>
                 <button type="submit" class="btn btn-primary">Submit</button>
             </form>
