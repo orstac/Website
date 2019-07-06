@@ -62,16 +62,55 @@
         <div class="container">
             <h1>Jobs</h1>
             <hr>
-            <h6>application template not up yet</h6>
-            <p>Name</p>
-            <p>age</p>
-            <p>email - used for payment</p>
-            <p>timezone</p>
-            <p>coding languages</p>
-            <p>years of experience</p>
-            <p>education - like school, youtube, online</p>
-            <p>submit</p>
-
+            <form
+                action="https://script.google.com/macros/s/AKfycbwaT3q_3dbsU60RLNm4dJc6FkYBCk5ZEQpSk9tiXgo_af5Tw6oz/exec"
+                method="POST">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Name">
+                </div>
+                <div class="form-group">
+                    <label for="age">Age</label>
+                    <input type="number" class="form-control" id="age" placeholder="Age">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email address</label>
+                    <input type="email" class="form-control" id="email" placeholder="Email">
+                </div>
+                <div class="form-group">
+                    <label for="timezone">Timezone</label>
+                    <input type="text" class="form-control" id="timezone" placeholder="timezone">
+                </div>
+                <div class="form-group">
+                    <label for="codinglang">Job Title</label>
+                    <small style="line-height: 0; display: block;">press <code>ctrl</code> or <code>shift</code> to
+                        select
+                        multiple</small><br>
+                    <select multiple class="form-control" id="codinglang">
+                        <option>Java</option>
+                        <option>JavaScript</option>
+                        <option>C++</option>
+                        <option>C</option>
+                        <option>C#</option>
+                        <option>BootStrap | making themes not just knowing basic bootstrap</option>
+                        <option>Python</option>
+                        <option>SQL</option>
+                        <option>Skript</option>
+                        <option>Builder | MC builder</option>
+                        <option>Marketer</option>
+                        <option>Sales Rep</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="yearsofexperience">Years Of Experience</label>
+                    <input type="number" class="form-control" id="yearsofexperience" placeholder="Years Of Experience">
+                </div>
+                <div class="form-group">
+                    <label for="Education">Education</label>
+                    <input type="text" class="form-control" id="Education" placeholder="Education">
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
         </div>
     </div>
     <div class="footer">
@@ -124,6 +163,7 @@
     <script src="/node_modules/jquery/dist/jquery.min.js"></script>
     <script src="/node_modules/popper/index.js"></script>
     <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script data-cfasync="false" type="text/javascript" src="../js/form-submission-handler.js"></script>
 </body>
 
 </html>
