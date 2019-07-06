@@ -45,7 +45,7 @@ html {
 }
 
 .title {
-    background: url("/img/geometry.png");
+    background: url("../img/geometry.png");
     padding: 10vh 0 10vh 0;
     -webkit-box-shadow: 0px 3px 15px 1px rgba(0, 0, 0, 0.1);
     box-shadow: 0px 3px 15px 1px rgba(0, 0, 0, 0.1);
@@ -148,10 +148,11 @@ html {
     text-align: left;
     margin: 0;
     padding: 4px 8px;
-    max-width: 100px;
     background: #0984e3;
     color: #fff;
-    border-bottom-right-radius: 12px;
+    text-align: center;
+    /* max-width: 100px;
+    border-bottom-right-radius: 12px; */
 }
 
 .team .card.lowers .jobTitle {
@@ -183,7 +184,7 @@ html {
     margin: 30px 0 30px 0;
     padding: 20px 0 20px 0;
     text-align: center;
-    background: url("/img/geometry.png");
+    background: url("../img/geometry.png");
 }
 
 .support.supporthtml {
