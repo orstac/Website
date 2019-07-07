@@ -296,6 +296,14 @@ html {
     box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
 }
 
+.check {
+    color: #00b894;
+}
+
+.x {
+    color: #d63031;
+}
+
 
 /* use to see borders */
 div {
