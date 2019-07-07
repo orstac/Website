@@ -63,6 +63,7 @@ upload wip website
                 - portfolio
                 - link to contact
                 - footer - check
+            - discord bot
     - Contact - started work
         - header - check
         - social media 
@@ -77,3 +78,5 @@ upload wip website
         - footer - check
     ---
     - finish all desc
+    - add base js, so we dont have to copy everything.
+        - see example on mc-server-setup.html
