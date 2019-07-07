@@ -1,0 +1,316 @@
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #0984e35a;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #0984e3;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.btn {
+    /* box-shadow: 3px 3px 10px -4px #0984e3; */
+}
+
+.orstac-logo {
+    transform: rotate(180deg);
+    margin-right: 8px;
+}
+
+.navbar-brand {
+    margin-top: 5px;
+}
+
+.navbar {
+    border-bottom: 0.5px solid #dfdfdf;
+
+
+    .btn {
+        margin: 0 4px;
+    }
+}
+
+.title.error {
+    padding: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    height: 100vh;
+
+    .text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+.title {
+    background: url("../img/geometry.png");
+    padding: 10vh 0 10vh 0;
+    -webkit-box-shadow: 0px 3px 15px 1px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 3px 15px 1px rgba(0, 0, 0, 0.1);
+
+    hr {
+        height: 3px;
+        border-radius: 10px;
+        width: 125px;
+        margin: 12px 0;
+    }
+
+    h1 {
+        font-size: 72px;
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.why {
+    margin: 30px 0 30px 0;
+    padding: 20px 0 20px 0;
+
+
+    .card-deck {
+        margin-top: -75px;
+        border: 2px solid #dfdfdf;
+        border-radius: 12px;
+        background: #fff;
+
+        .card {
+            transition: 0.5s;
+            transform: scale(calc(1 - 0.025));
+            margin: 0;
+            border-width: 2px;
+            border-radius: 0;
+            border: none;
+            background: none;
+        }
+
+        .card:hover,
+        .card:focus,
+        .card:active {
+            transform: scale(1);
+        }
+    }
+
+    .icon {
+        border: 1px solid #212121;
+        padding: 8px;
+        border-radius: 100px;
+        margin: 0 0 8px 0;
+    }
+}
+
+.team {
+    background: #f8f8f8;
+    margin: 30px 0 30px 0;
+    padding: 20px 0 20px 0;
+    -webkit-box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.1);
+
+
+    .card {
+        margin-top: 12px;
+        margin-bottom: 12px;
+        min-width: 300px;
+        max-width: 400px;
+        text-align: center;
+        border: none;
+
+        .xestra {
+            -webkit-box-shadow: 0px 0px 15px 5px rgba(9, 132, 227, 0.1);
+            box-shadow: 0px 0px 15px 5px rgba(9, 132, 227, 0.1);
+        }
+
+        .card-body {
+            margin-top: -28px;
+        }
+
+        img {
+            width: 64px;
+            height: 64px;
+            border-radius: 10000px;
+            margin: 0 0 8px 0;
+        }
+    }
+
+    .jobTitle {
+        float: left;
+        text-align: left;
+        margin: 0;
+        padding: 4px 8px;
+        background: #0984e3;
+        color: #fff;
+        text-align: center;
+        /* max-width: 100px;
+    border-bottom-right-radius: 12px; */
+    }
+
+    .card.lowers .jobTitle {
+        background: #6c757d;
+    }
+}
+
+.testimonials {
+    margin: 30px 0 30px 0;
+    padding: 20px 0 20px 0;
+
+    img {
+        width: 64px;
+        height: 64px;
+        border-radius: 10000px;
+        margin: 0 0 8px 0;
+    }
+}
+
+.support {
+    -webkit-box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.1);
+    margin: 30px 0 30px 0;
+    padding: 20px 0 20px 0;
+    text-align: center;
+    background: url("../img/geometry.png");
+
+
+    .discord .fa-discord {
+        margin: 0 8px 0 0;
+    }
+
+    .card-deck {
+        background: #fff;
+        /* border: 1px solid #212121; */
+        border-radius: 4px;
+        -webkit-box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.1);
+        box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.1);
+
+        .card {
+            background: none;
+            border: none;
+        }
+
+        img {
+            width: 175px;
+            height: 175px;
+        }
+    }
+}
+
+.support.supporthtml {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background: none;
+}
+
+.footer {
+    margin: 30px 0 0 0;
+    padding: 20px 0 20px 0;
+
+    .card {
+        min-width: 250px;
+        border: none;
+
+        ul {
+            list-style: none;
+        }
+
+        li {
+            margin: 0 0 0 -40px;
+        }
+
+        a {
+            color: #212121;
+        }
+    }
+}
+
+.body {
+    margin: 30px 0 30px 0;
+    padding: 20px 0 20px 0;
+}
+
+.project {
+    img {
+        width: 25%;
+        height: 25%;
+        float: left;
+        margin: 0 150px 0 25px;
+        padding: 0;
+    }
+
+    .card {
+        margin-top: 8px;
+        margin-bottom: 8px;
+        min-width: 200px;
+        max-width: 300px;
+
+        h6 {
+            margin-top: 8px;
+            margin-left: 8px;
+        }
+
+        h6 a {
+            margin-right: 4px;
+        }
+
+        .fab {
+            color: #212121;
+            text-decoration: none;
+        }
+    }
+}
+
+.pricing {
+    margin: 30px 0 30px 0;
+    padding: 20px 0 20px 0;
+}
+
+.pricing-header {
+    max-width: 700px;
+}
+
+.card-deck .card {
+    min-width: 220px;
+}
+
+.border-top {
+    border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+.check {
+    color: #00b894;
+}
+
+.x {
+    color: #d63031;
+}
+
+
+/* use to see borders */
+div {
+    /* border: 0.5px solid #757575; */
+}

@@ -53,9 +53,9 @@ upload wip website
         - Commissions
             - Websites - started work
                 - header - check
-                - standout features
-                - portfolio
-                - link to contact
+                - standout features - check
+                - portfolio - do later
+                - link to contact 
                 - footer - check
             - Server Setup - do later - check
                 - header - check
