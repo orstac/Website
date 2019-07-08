@@ -26,7 +26,7 @@ const navbar = `
                     <a class="dropdown-item" href="./bootstrap.html">Bootstrap Themes</a>
                     <div class="dropdown-divider"></div>
                     <h6 class="dropdown-header">Server Setup</h6>
-                    <a class="dropdown-item active" href="./mc-server-setup.html">MC Server
+                    <a class="dropdown-item" href="./mc-server-setup.html">MC Server
                         Setup</a>
                     <div class="dropdown-divider"></div>
                     <h6 class="dropdown-header">Commissions</h6>

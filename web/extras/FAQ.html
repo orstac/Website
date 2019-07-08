@@ -15,149 +15,19 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <div class="container">
-            <h6 class="navbar-brand" href="#">OrsTac</h6>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="../about.html">About</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Development
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <h6 class="dropdown-header">Website Development</h6>
-                            <a class="dropdown-item" href="../development/javascript.html">JavaScript</a>
-                            <!-- <a class="dropdown-item" href="./react.html">React</a> -->
-                            <a class="dropdown-item" href="../development/bootstrap.html">Bootstrap Themes</a>
-                            <div class="dropdown-divider"></div>
-                            <h6 class="dropdown-header">Server Setup</h6>
-                            <a class="dropdown-item" href="../development/mc-server-setup.html">MC Server Setup</a>
-                            <div class="dropdown-divider"></div>
-                            <h6 class="dropdown-header">Commissions</h6>
-                            <a class="dropdown-item" href="../development/websites.html">Websites</a>
-                            <!-- <a class="dropdown-item" href="#">Server Setup</a> -->
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <!-- <a class="nav-link" href="../contact.html">Contact</a> -->
-                    </li>
-                </ul>
-                <a class="btn btn-primary" href="https://discord.gg/SsS5VcS">Support</a>
-            </div>
-        </div>
-    </nav>
-    <br><br><br><br>
-    <div class="body">
-        <div class="container">
-            <h1>Frequently Asked Questions</h1>
-            <hr>
-            <section class="accordion-section clearfix mt-3" aria-label="Question Accordions">
-                <div class="container">
-                    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
 
-                        <div class="panel panel-default">
-                            <div class="panel-heading p-3 mb-3" role="tab" id="heading0">
-                                <h3 class="panel-title">
-                                    <a class="collapsed" role="button" title="" data-toggle="collapse"
-                                        data-parent="#accordion" href="#collapse0" aria-expanded="true"
-                                        aria-controls="collapse0">
-                                        Why should I choose OrsTac?
-                                    </a>
-                                </h3>
-                            </div>
-                            <div id="collapse0" class="panel-collapse collapse" role="tabpanel"
-                                aria-labelledby="heading0">
-                                <div class="panel-body px-3 mb-4">
-                                    <p>OrsTac gives quality products at an affordable price for everyone. Everyone
-                                        customer will get a quality code in their product.</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="panel panel-default">
-                            <div class="panel-heading p-3 mb-3" role="tab" id="heading1">
-                                <h3 class="panel-title">
-                                    <a class="collapsed" role="button" title="" data-toggle="collapse"
-                                        data-parent="#accordion" href="#collapse1" aria-expanded="true"
-                                        aria-controls="collapse1">
-                                        what is OrsTac?
-                                    </a>
-                                </h3>
-                            </div>
-                            <div id="collapse1" class="panel-collapse collapse" role="tabpanel"
-                                aria-labelledby="heading1">
-                                <div class="panel-body px-3 mb-4">
-                                    <p>OrsTac is a small development company that mainly focuses in Web development and
-                                        mc server setups.</p>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </section>
-        </div>
-    </div>
-    <div class="footer">
-        <div class="container">
-            <hr>
-            <div class="card-deck justify-content-center">
-                <div class="card">
-                    <div class="card-body">
-                        <h4>OrsTac</h4>
-                        <p>A tiny development team that works in web development and java as of right now.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-body">
-                        <h4>Navigation</h4>
-                        <ul>
-                            <li><a href="../about.html">About</a></li>
-                            <li><a href="https://discord.gg/SsS5VcS">Support</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-body">
-                        <h4>More Stuff</h4>
-                        <ul>
-                            <li><a href="../extras/FAQ.html">FAQ</a></li>
-                            <li><a href="../extras/PP.html">Privacy Policy</a></li>
-                            <li><a href="../extras/T&C.html">Terms & Condition</a></li>
-                            <li><a href="../extras/Jobs.html">Jobs</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-body">
-                        <h4>Contact</h4>
-                        <ul>
-                            <li><a href="https://discord.gg/SsS5VcS">Discord</a></li>
-                            <li><a href="mailto:contact@orstac.com">Email: contact@orstac.com</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <hr>
-            <p class="text-center">Copyright 2019 OrsTac. All rights reserved</p>
-        </div>
-    </div>
+    <div id="navbar"></div>
+    <div id="body"></div>
+    <div id="footer"></div>
 
 
     <script src="../js/lib/jquery.min.js"></script>
     <script src="../js/lib/popper.js"></script>
     <script src="../js/lib/bootstrap.min.js"></script>
+
+    <script src="../js/html/base/navbar-inFile.js"></script>
+    <script src="../js/html/body/FAQ.js"></script>
+    <script src="../js/html/base/footer-infile.js"></script>
 </body>
 
 </html>
