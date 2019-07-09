@@ -14,6 +14,5 @@ const title = `
             </div>
         </div>
     </div>
-</div>
-`;
+</div>`;
 document.getElementById("title").innerHTML += title;

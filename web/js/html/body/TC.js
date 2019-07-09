@@ -97,14 +97,12 @@ const body = `
             the
             link is in the context of general resource information or is otherwise consistent with editorial content
             in a newsletter or similar product furthering the mission of the organization.</p>
-
         <p>These organizations may link to our home page, to publications or to other Web site information so long
             as
             the link: (a) is not in any way misleading; (b) does not falsely imply sponsorship, endorsement or
             approval
             of the linking party and it products or services; and (c) fits within the context of the linking party's
             site.</p>
-
         <p>If you are among the organizations listed in paragraph 2 above and are interested in linking to our
             website,
             you must notify us by sending an e-mail to <a href="mailto:support@orstac.com"
@@ -115,9 +113,7 @@ const body = `
             site,
             and a list of the URL(s) on our site to which you would like to link. Allow 2-3 weeks for a response.
         </p>
-
         <p>Approved organizations may hyperlink to our Web site as follows:</p>
-
         <ol>
             <li>By use of our corporate name; or</li>
             <li>By use of the uniform resource locator (Web address) being linked to; or</li>

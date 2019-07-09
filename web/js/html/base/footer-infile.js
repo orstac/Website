@@ -42,6 +42,5 @@ const footer = `
         <hr>
         <p class="text-center">Copyright 2019 OrsTac. All rights reserved</p>
     </div>
-</div>
-`;
+</div>`;
 document.getElementById("footer").innerHTML += footer;

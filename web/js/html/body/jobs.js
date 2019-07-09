@@ -120,5 +120,5 @@ const body = `
             </div>
         </form>
     </div>
-</div> `;
+</div>`;
 document.getElementById("body").innerHTML += body;

@@ -26,6 +26,5 @@ const body = `
         <br>
     </div>
 </div>
-</div>
-`;
+</div>`;
 document.getElementById("body").innerHTML += body;

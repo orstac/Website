@@ -51,6 +51,5 @@ const body = `
             </div>
         </div>
     </div>
-</div>
-`;
+</div>`;
 document.getElementById("body").innerHTML += body;
