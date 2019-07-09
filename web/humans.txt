@@ -1,0 +1,33 @@
+/* TEAM */
+            
+Your title: OrsTac
+
+                            
+Site: http://OrsTac.com
+
+                            
+Github: https://github.com/OrsTac
+
+                            
+Location: Pittsburgh, United States of America.
+
+
+						
+/* THANKS */
+			
+Name: OrsTac team
+
+                     
+
+/* SITE */
+          
+Last update: 2019
+
+                            
+Standards: HTML5, CSS3, SCSS, JS
+
+                            
+Components: fontawesome
+
+                            
+Software: Git Bash, Github
