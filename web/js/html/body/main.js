@@ -152,7 +152,7 @@ const body = `
                         <li>One month of updates</li>
                         <li>Discord support</li>
                     </ul>
-                    <button type="button" class="btn btn-lg btn-outline-primary">Take a Look</button>
+                    <button type="button" class="btn btn-lg btn-outline-primary" href="./development/websites.html">Take a Look</button>
                 </div>
             </div>
             <!-- <div class="card mb-4 box-shadow">
@@ -184,7 +184,7 @@ const body = `
                         <li>3 months of updates</li>
                         <li>Discord support</li>
                     </ul>
-                    <button type="button" class="btn btn-lg btn-outline-primary">Contact us</button>
+                    <button type="button" class="btn btn-lg btn-outline-primary" href="https://discord.gg/SsS5VcS">Contact us</button>
                 </div>
             </div>
         </div>
