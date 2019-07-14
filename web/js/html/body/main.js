@@ -205,23 +205,6 @@ const body = `
                         alt="">
                 </div>
             </div>
-            <div class="card">
-                <div class="card-body">
-                    <img src="https://cdn.shopifycloud.com/hatchful-web/assets/c3a241ae6d1e03513dfed6f5061f4a4b.png"
-                        alt="">
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-body">
-                    <img src="https://cdn.shopifycloud.com/hatchful-web/assets/6fcc76cfd1c59f44d43a485167fb3139.png"
-                        alt="">
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-body">
-                    <img src="https://about.canva.com/wp-content/uploads/sites/3/2016/08/Band-Logo.png" alt="">
-                </div>
-            </div>
         </div>
     </div>
 </div>`;
