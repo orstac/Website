@@ -111,9 +111,9 @@ const body = `
                         <div class="card-body">
                             <img src="https://cdn.business2community.com/wp-content/uploads/2017/08/blank-profile-picture-973460_640.png"
                                 alt="">
-                            <h5 class="card-title">Thomas</h5>
-                            <p class="card-subtitle">Mc Server Owner</p>
-                            <p class="card-text">It's exactly what I've been looking for.</p>
+                            <h5 class="card-title">Amelia</h5>
+                            <p class="card-subtitle">Native Craft Network</p>
+                            <p class="card-text">I had a pleasant experience with OrsTac, I purchased their Full Minecraft Setup Service, and had the Manager of the company work on my project he worked with me with my custom requests and sent daily updates. All queries were answered and solved. Highly Recommended and will be happy to deal with again in the future to help me expand my service.</p>
                         </div>
                     </div>
                 </div>
